@@ -13,6 +13,8 @@ class DCMotor {
         void begin(int in1, int in2);
 
         void Speed(int Velocidade=DEFAULT_Velocidade);
+
+
         void Forward();
         void Backward();
         void Stop();
